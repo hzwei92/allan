@@ -78,7 +78,7 @@ export function Component() {
                   alt=""
                   className="w-48 h-48 my-50 mx-auto"
                   height="300"
-                  src="/FDG_logo2.png"
+                  src="/fdg.png"
                   width="400"
                   style={{
                     transform: 'scale(0.5)'
