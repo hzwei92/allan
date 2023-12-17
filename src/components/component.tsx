@@ -9,6 +9,7 @@ import { CardTitle, CardHeader, CardContent, CardFooter, Card } from "@/componen
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
+import Head from "next/head"
 
 export function Component() {
   return (
@@ -20,6 +21,9 @@ export function Component() {
           '"""\\"\\"\\\\"\\\\"\\\\"\\\\"url(\\\\"/placeholder.svg?height=1080&width=1920\\\\")\\\\"\\\\"\\"\\""',
       }}
     >
+      <Head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </Head>
       <header className="px-4 lg:px-6 h-14 flex items-center bg-black backdrop-filter backdrop-blur-lg bg-opacity-60" style={{
         position: 'fixed',
         left: 0,
