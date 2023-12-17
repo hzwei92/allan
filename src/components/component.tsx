@@ -61,7 +61,7 @@ export function Component() {
                     marginTop: 50,
                     color: '#cfb53b'
                   }}>
-                    Into &nbsp; An &nbsp; Address
+                    Into &nbsp; An &nbsp; Address...
                   </div>
                 </h1>
                 <div className="h-[20px]"/>
